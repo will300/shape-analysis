@@ -12,9 +12,22 @@ Tensorflow 1.12.0; Numpy 1.16.0; Matplotlib 3.0.2, Keras 2.2.0; Python 3.6
 
 ## results
 
-Running main.py in its current state should yield the following plots, which show different processing of the same CAD model. Both 2D and 3D representations are included, along with an image of the original mesh. The processing resolution and direction of view can be changed in some of the functions. 
+Running main.py in its current state should yield the following plots, which show different representations of the same CAD model. Both 2D and 3D plots are included, along with an image of the original mesh. The processing resolution and direction of view can be changed in some of the functions. 
 
+**3D Point Cloud**
+![point cloud](/images/bed_plot_1.png)
 
+**3D Voxel Plot**
+![voxel plot](/images/bed_plot_2.png)
 
-Other files have been included which can also be inputted, however some processing times are many minutes. The next phase of the project will be to convert the functions to C++ for greater speeds suitable for processing a large dataset.
+**2D Mesh Plot**
+![mesh plot](/images/bed_plot_3.png)
 
+**2D Pixel Plot**
+![pixel plot](/images/bed_plot_4.png)
+
+Other files have been included which can also be inputted, and processing times for most are a few minutes. The next phase of the project will be to convert the functions to C++ for greater speeds suitable for processing a large dataset.
+
+### author
+
+William Naylor
