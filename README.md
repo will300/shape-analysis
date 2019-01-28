@@ -1,6 +1,6 @@
 # shape-analysis
 
-This repository houses all files making up part of my masters project, which is focused on the analysis of CAD models. The aim of the project is to create an automatic system for segmenting and classifying different components within models, e.g. shafts and holes, using convolutional neural networks. The current stage of the project is conversion of triangular mesh style CAD files into square grids which are much more suitable as input for neural networks 
+This repository houses all files making up my masters project, which is focused on the analysis of CAD models. The aim of the project is to create an automatic system for classification and segmentation of different components within models, e.g. shafts and holes, using convolutional neural networks. The current stage of the project is conversion of triangular mesh style CAD files into square grids which are much more suitable as input for neural networks 
 
 ## dataset
 
@@ -12,7 +12,7 @@ Tensorflow 1.12.0; Numpy 1.16.0; Matplotlib 3.0.2, Keras 2.2.0; Python 3.6
 
 ## results
 
-Running main.py in its current state should yield the following plots, which show different representations of the same CAD model. Both 2D and 3D plots are included, along with an image of the original mesh. The processing resolution and direction of view can be changed in some of the functions. 
+Running main.py should yield the following plots, which show different representations of the same CAD model. Both 2D and 3D plots are included, along with an image of the original mesh. The processing resolution and direction of view can be changed in some functions. 
 
 **3D Point Cloud**
 ![point cloud](/images/bed_plot_1.png)
@@ -30,7 +30,7 @@ Running main.py in its current state should yield the following plots, which sho
 
 ![CAD mesh](/images/bed_mesh.png)
 
-Other files have been included which can also be inputted, and processing times for most are a few minutes. The next immediate step will be to incorporate Numba into the functions for greater speeds suitable for processing a large dataset.
+Other files have been included which can also be inputted, and processing times for most are a few minutes. The next immediate step will be to incorporate Numba for greater speeds suitable for processing a large dataset.
 
 ### author
 
