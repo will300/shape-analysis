@@ -26,6 +26,10 @@ Running main.py in its current state should yield the following plots, which sho
 **2D Pixel Plot**
 ![pixel plot](/images/bed_plot_4.png)
 
+**Original CAD Mesh**
+
+![CAD mesh](/images/bed_mesh.png)
+
 Other files have been included which can also be inputted, and processing times for most are a few minutes. The next phase of the project will be to convert the functions to C++ for greater speeds suitable for processing a large dataset.
 
 ### author
